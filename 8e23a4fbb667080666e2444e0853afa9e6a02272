@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bab0f47c_b7edfdd3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28037
+      },
+      "writtenOn": "2026-02-09T00:53:00Z",
+      "side": 1,
+      "message": "Sensor test reports all sensors as working",
+      "revId": "8e23a4fbb667080666e2444e0853afa9e6a02272",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

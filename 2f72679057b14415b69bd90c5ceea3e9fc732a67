@@ -34,6 +34,24 @@
       "parentUuid": "e905a089_c76073e3",
       "revId": "2f72679057b14415b69bd90c5ceea3e9fc732a67",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c36239d8_f5ea345e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28037
+      },
+      "writtenOn": "2026-04-18T01:38:03Z",
+      "side": 1,
+      "message": "Why would it be? Unless i\u0027m mistaken the cutout overlay only handles the front camera. And this is for the panel\u0027s rounded corners. Without this, some strings like the carrier name would get cut out as that corner of the display is rounded.",
+      "parentUuid": "e905a089_c76073e3",
+      "revId": "2f72679057b14415b69bd90c5ceea3e9fc732a67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

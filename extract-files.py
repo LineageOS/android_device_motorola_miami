@@ -32,6 +32,11 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     (
+        'vendor/lib64/camera/components/com.vidhance.node.ica.so',
+        'vendor/lib64/camera/components/com.vidhance.node.processing.so',
+    ): blob_fixup()
+        .replace_needed('libui.so', 'libui-v34.so'),
+    (
         'vendor/etc/libnfc-PN557.conf',
         'vendor/etc/libnfc-nci_PN557.conf',
     ): blob_fixup()

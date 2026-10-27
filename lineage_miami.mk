@@ -18,7 +18,7 @@ PRODUCT_NAME := lineage_miami
 PRODUCT_DEVICE := miami
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := moto edge 30 neo
+PRODUCT_MODEL := motorola edge 30 neo
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 

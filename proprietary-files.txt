@@ -87,6 +87,7 @@ vendor/lib64/libofflinedump.so
 vendor/lib64/libofflinelog.so
 vendor/lib64/libopencv.so
 vendor/lib64/libopestriping.so
+vendor/lib64/libportrait_repair_ppl3_ocl.so
 vendor/lib64/libqll10.so
 vendor/lib64/libqllengine.so
 vendor/lib64/libremosaic_wrapper.so
@@ -173,6 +174,7 @@ vendor/etc/camera/vidhance_calibration
 
 # Camera - feature2
 vendor/lib64/com.qti.feature2.anchorsync.so
+vendor/lib64/com.qti.feature2.arcrawpro.so
 vendor/lib64/com.qti.feature2.demux.so
 vendor/lib64/com.qti.feature2.frameselect.so
 vendor/lib64/com.qti.feature2.fusion.so
@@ -192,6 +194,12 @@ vendor/lib64/com.qti.feature2.swmf.so
 
 # Camera - flash
 vendor/lib64/camera/com.qti.flash.aw36515.so
+
+# Camera - Motorola
+vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service
+vendor/etc/init/motorola.hardware.camera.desktop@2.0-service.rc
+vendor/lib64/motorola.hardware.camera.desktop@1.0.so
+vendor/lib64/motorola.hardware.camera.desktop@2.0.so
 
 # Camera - OIS
 vendor/firmware/mot_aw86006.prog

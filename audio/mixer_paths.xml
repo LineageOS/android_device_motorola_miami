@@ -521,8 +521,31 @@
     </path>
 
     <path name="echo-reference-voip">
-        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEC_I2S_RX" />
-        <ctl name="EC Reference Channels" value="One"/>
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEC_MI2S_TX" />
+        <ctl name="EC Reference Channels" value="Two"/>
+        <path name="spkr-vi-record" />
+    </path>
+
+    <path name="echo-reference-voip-low-latency">
+        <ctl name="AUDIO_REF_EC_UL10 MUX" value="SEC_MI2S_TX" />
+        <ctl name="EC Reference Channels" value="Two"/>
+        <path name="spkr-vi-record" />
+    </path>
+
+    <path name="echo-reference-voip-low-latency handset">
+        <path name="echo-reference-voip handset" />
+    </path>
+
+    <path name="echo-reference-voip-low-latency headphones">
+        <path name="echo-reference-voip headphones" />
+    </path>
+
+    <path name="echo-reference-voip-low-latency headphones-44.1">
+        <path name="echo-reference-voip headphones" />
+    </path>
+
+    <path name="echo-reference-voip-low-latency bt-sco">
+        <path name="echo-reference-voip bt-sco" />
     </path>
 
     <path name="echo-reference-voip handset">
